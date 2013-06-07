@@ -34,7 +34,7 @@ class VK{
 		return $response->response;
 	}
 	
-	private function parseCookie($this->app_id) {
+	private function parseCookie() {
         $session = array();
         $member = FALSE;
         if(!isset($_COOKIE['vk_app_'.$this->app_id]))return false;
